@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.row-box{
+    display: flex;
+}
+
+.box {
+    /* margin: 10px; */
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.box:hover{
+    background-color: rgb(210, 210, 210);
+}
+
+.box-1{
+    border-right: 3px solid ;
+    border-bottom: 3px solid ;
+}
+
+.box-2{
+    border-right: 3px solid ;
+    border-bottom: 3px solid ;
+    border-left: 3px solid ;
+}
+
+.box-3{
+    border-left: 3px solid ;
+    border-bottom: 3px solid ;
+}
+
+.box-4{
+    border-top: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.box-5{
+    border: 3px solid;
+}
+
+.box-6{
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.box-7{
+    border-top: 3px solid;
+    border-right: 3px solid;
+}
+
+.box-8{
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+}
+
+.box-9{
+    border-top: 3px solid;
+    border-left: 3px solid;
+}
+
