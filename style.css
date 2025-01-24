@@ -17,63 +17,49 @@ body{
 }
 
 .box {
-    /* margin: 10px; */
     width: 100px;
     height: 100px;
-    /* background-color: red; */
     cursor: pointer;
     transition: 0.2s;
+    border: 2px solid;
 }
 
 .box:hover{
     background-color: rgb(210, 210, 210);
 }
 
-.box-1{
-    border-right: 3px solid ;
-    border-bottom: 3px solid ;
+.move-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-.box-2{
-    border-right: 3px solid ;
-    border-bottom: 3px solid ;
-    border-left: 3px solid ;
+/* X ICON ===================== */
+.triangle-right, .triangle-left{
+    width: 50px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
 }
 
-.box-3{
-    border-left: 3px solid ;
-    border-bottom: 3px solid ;
+.triangle-left {
+    transform: rotate(45deg);
 }
 
-.box-4{
-    border-top: 3px solid;
-    border-right: 3px solid;
-    border-bottom: 3px solid;
+.triangle-right {
+    transform: rotate(-45deg);
 }
+/* End of X ICON ============= */
 
-.box-5{
-    border: 3px solid;
+/* O ICON ===================== */
+.circle-move{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 10px solid black;
+    position: absolute;
 }
-
-.box-6{
-    border-top: 3px solid;
-    border-left: 3px solid;
-    border-bottom: 3px solid;
-}
-
-.box-7{
-    border-top: 3px solid;
-    border-right: 3px solid;
-}
-
-.box-8{
-    border-top: 3px solid;
-    border-left: 3px solid;
-    border-right: 3px solid;
-}
-
-.box-9{
-    border-top: 3px solid;
-    border-left: 3px solid;
-}
-
+/* End of O ICON ============= */
